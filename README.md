@@ -2,6 +2,9 @@
 
 My Social Connect Application - Enables users to find the shortest path to connect
 
+# High-Level Design Document
+Download high level design document  - [Design Document](./documentation/01_High_Level_Design_SocialConnect_FINAL.docx)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and run on your local machine to test. This application is developed using Spring Boot. You can run this application as a stand-alone Java application once all necessary software is installed and configured.
@@ -68,10 +71,10 @@ git clone
 c:>mvnw clean install
 ```
 
-### Running the app using Eclipse IDE
+### Running the app from Eclipse IDE
 * Run it as Spring Boot App (SocialConnectBootStartApp.java)
 
-### Running the app using terminal
+### Running the app from terminal window
 You can easily start the app as any other Spring Boot app. Navigate to installed location of the app
 
 ```
@@ -82,6 +85,7 @@ C:>mvnw spring-boot:run
 ### Usage
 * Launch the application and go on http://localhost:8080/
 * You can see the content from the static page index.html
+![Social Connect](./documentation/MySocialConnect.png)
 
 
 ## Running the tests
@@ -112,18 +116,16 @@ All these features are enabled as REST services. We can test the same using belo
 
 ### Acceptance Testing 
 Acceptance testing report is available in below location
-my-social-connect-api/documentation/Acceptance-Testing.docx
+[Aceptance Testing](./documentation/04_Acceptance-Testing-Report.docx)
 
 ## Code Review and Analysis
 
 ### Static Code Analysis - SONARQUBE
 Static code analysis is done using SONARQUBE and report is available
-[Static Code Analysis](./documentation/Static-Code-Analysis.docx)
+[Static Code Analysis](./documentation/02_Static-Code-Analysis.docx)
 
 ### Code Coverage - JACOCO
 Code coverage is added as part of the build process. Access the report in my-social-connect-api/target/site/jacoco/index.html
-Existing report can be downloaded from ./documentation/code-coverage.zip
+Existing report can be downloaded from ./documentation/03_code-coverage-jacoco.zip
 
 
-# High-Level Design Document
-Download high level design document  - [Design Document](./documentation/High_Level_Design_SocialConnect_FINAL.docx)
