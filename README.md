@@ -1,16 +1,16 @@
 # Project Title
 
-My Social Connect Application - Enables users to find shortest path to connect
+My Social Connect Application - Enables users to find the shortest path to connect
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. This application is developed using Spring Boot. You can run this application as a stand-alone Java application
+These instructions will get you a copy of the project up and run on your local machine to test. This application is developed using Spring Boot. You can run this application as a stand-alone Java application once all necessary software is installed and configured.
 
 ### Prerequisites
 
 Before we begin, open a terminal and run the following commands to ensure that you have valid versions of Java and Maven installed
 
-* Check Java version - Need JDK 10.0.2 
+* Check the version of Java. Make sure JDK 10.0.2 is installed
 ```
 C:\>java -version
 ```
@@ -22,7 +22,7 @@ Java(TM) SE Runtime Environment 18.3 (build 10.0.2+13)
 Java HotSpot(TM) 64-Bit Server VM 18.3 (build 10.0.2+13, mixed mode)
 ```
 
-* Check Maven Version - Need Maven 3.5.4
+* Check the version of Maven. Make sure Maven 3.5.4 is installed
 ```
 C:\>mvn -v
 ```
@@ -38,31 +38,31 @@ OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 
 ### Installing
 
-Install Java, Maven and Eclipse if it is not installed or does not have the correct version. You can download the same from below location
+Install Java, Maven, and Eclipse if it is not installed or does not have the correct version. You can download the same from below location
 
 
-* [JDK-10](http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html) - JDK 10.0.2
+* [JDK-10](http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html) - Install Java
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [Eclipse - Photon](https://www.eclipse.org/downloads/) -Eclipse IDE to view the source code
+* [Eclipse - Photon](https://www.eclipse.org/downloads/) -Eclipse IDE to ren and view the source code
 
 ```
-Add Maven and JDK to the class path
+Note: After installation, make sure to add Maven and JDK to the classpath.
 ```
 
 ## Setup
 
-Clone the source code from GIT repository
+Clone the source code from GIT repository using below command
 
 ```
 git clone 
 ```
 
 ### Importing the project to Eclipse IDE
-* Import “my-social-connect-api” into your Eclipse IDE as an Existing Maven Project 
-* Right click on the project select Maven-> Update Project
+* Import “my-social-connect-api” into your Eclipse IDE as an "Existing Maven Project"
+* Right-click on the project select Maven-> Update Project to download all the dependencies
 
 ### Build from Source
-* Just invoke the build at the root of the project or execute clean & install maven task in Eclipse IDE
+* Invoke build command using command prompt at the root of the project or execute clean & install maven task in Eclipse IDE
 
 ```
 c:>mvnw clean install
@@ -72,7 +72,7 @@ c:>mvnw clean install
 * Run it as Spring Boot App (SocialConnectBootStartApp.java)
 
 ### Running the app using terminal
-You can easily start the app as any other Spring Boot app. Naviagte to installed location of the app
+You can easily start the app as any other Spring Boot app. Navigate to installed location of the app
 
 ```
 cd my-social-connect-api
@@ -111,17 +111,16 @@ All these features are enabled as REST services. We can test the same using belo
 
 
 ### Static Code Analysis - SONARQUBE
-Static code analyis is done using SONARQUBE and report is available
-[Static Code Analysis](./documentation/staic-code-analysis/README.md)
+Static code analysis is done using SONARQUBE and report is available
+[Static Code Analysis](./documentation/static-code-analysis/README.md)
 
 ### Code Coverage - JACOCO
-Code coverage is added as part of build process. Access the report in 
+Code coverage is added as part of the build process. Access the report in 
 my-social-connect-api/target/site/jacoco/index.html
 
 ### Acceptance Testing 
 Acceptance testing report is available in below location
 my-social-connect-api/documentation/SocialConnect_AcceptanceTesting.docx
 
-# High Level Design Document
+# High-Level Design Document
 my-social-connect-api/documentation/High_Level_Design_SocialConnect_FINAL.docx
-
