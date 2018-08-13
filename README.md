@@ -111,17 +111,20 @@ All these features are enabled as REST services. We can test the same using belo
 |   5   | Which user has lowest connections | http://localhost:8080/socialconnect/min/  |
 
 
-### Static Code Analysis - SONARQUBE
-Static code analysis is done using SONARQUBE and report is available
-[Static Code Analysis](./documentation/static-code-analysis/README.md)
-
-### Code Coverage - JACOCO
-Code coverage is added as part of the build process. Access the report in 
-my-social-connect-api/target/site/jacoco/index.html
-
 ### Acceptance Testing 
 Acceptance testing report is available in below location
-my-social-connect-api/documentation/SocialConnect_AcceptanceTesting.docx
+my-social-connect-api/documentation/Acceptance-Testing.docx
+
+## Code Review and Analysis
+
+### Static Code Analysis - SONARQUBE
+Static code analysis is done using SONARQUBE and report is available
+[Static Code Analysis](./documentation/Static-Code-Analysis.docx)
+
+### Code Coverage - JACOCO
+Code coverage is added as part of the build process. Access the report in my-social-connect-api/target/site/jacoco/index.html
+Existing report can be downloaded from ./documentation/code-coverage.zip
+
 
 # High-Level Design Document
-my-social-connect-api/documentation/High_Level_Design_SocialConnect_FINAL.docx
+Download high level design document  from ./documentation/High_Level_Design_SocialConnect_FINAL.docx
