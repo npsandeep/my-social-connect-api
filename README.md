@@ -102,9 +102,13 @@ Spring Boot automatically runs all the tests while we execute the application. W
 ### Testing the REST Services
 All these features are enabled as REST services. We can test the same using below URL 
 
-| S.No  | Feature  		| Test method to execute |
+| S.No  | Feature  		| REST service details|
 |-------| ------------- | -----------------------|
-
+|   1   | Who can introduce Lucas(4) to Adam(id=62)  |  http://localhost:8080/socialconnect/findpath/{source-id}/{dest-id}  |
+|   2   | How many connections are there between two users.  | http://localhost:8080/socialconnect/{fromId}/{toId}  |
+|   3   | How many total connections  Lucas(id=4) has?  | http://localhost:8080/socialconnect/{id}/  |
+|   4   | Which user has highest connections  |  http://localhost:8080/socialconnect/max/  |
+|   5   | Which user has lowest connections | http://localhost:8080/socialconnect/min/  |
 
 
 ### Static Code Analysis - SONARQUBE
