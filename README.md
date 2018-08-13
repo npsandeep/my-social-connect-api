@@ -98,7 +98,6 @@ Spring Boot automatically runs all the tests while we execute the application. W
 |   4   | Which user has highest connections  | Run testGetMaxConnections() method in SocialConnectResourceTests.java class  |
 |   5   | Which user has lowest connections | Run testGetMinConnections() method in SocialConnectResourceTests.java class  |
 
-
 ### Testing the REST Services
 All these features are enabled as REST services. We can test the same using below URL 
 
@@ -127,4 +126,4 @@ Existing report can be downloaded from ./documentation/code-coverage.zip
 
 
 # High-Level Design Document
-Download high level design document  from ./documentation/High_Level_Design_SocialConnect_FINAL.docx
+Download high level design document  - [Design Document](./documentation/High_Level_Design_SocialConnect_FINAL.docx)
