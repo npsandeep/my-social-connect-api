@@ -101,7 +101,8 @@ Spring Boot automatically runs all the tests while we execute the application. W
 
 ### Testing the REST Services
 All these features are enabled as REST services. We can test the same using below URL 
-| S.No  | Feature  		| REST Service|
+
+| S.No  | Feature  		| Test method to execute |
 |-------| ------------- | -----------------------|
 
 
