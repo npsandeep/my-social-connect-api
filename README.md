@@ -3,7 +3,7 @@
 My Social Connect Application - Enables users to find the shortest path to connect
 
 # High-Level Design Document
-Download high level design document  - [Design Document](./documentation/01_High_Level_Design_SocialConnect_FINAL.docx)
+Download  - [High level design document](./documentation/01_High_Level_Design_SocialConnect_FINAL.docx)
 
 ## Getting Started
 
