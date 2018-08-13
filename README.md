@@ -67,7 +67,7 @@ git clone
 * Just invoke the build at the root of the project or execute clean & install maven task in Eclipse IDE
 
 ```
-c:>mvnw clean install
+c:>mvn clean install
 ```
 
 ### Running the app using Eclipse IDE
@@ -78,7 +78,7 @@ You can easily start the app as any other Spring Boot app. Naviagte to installed
 
 ```
 cd my-social-connect-api
-C:>mvnw spring-boot:run
+C:>mvn spring-boot:run
 ```
 
 ### Usage
