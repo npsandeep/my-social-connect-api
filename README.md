@@ -68,7 +68,7 @@ git clone
 * Invoke build command using command prompt at the root of the project or execute clean & install maven task in Eclipse IDE
 
 ```
-c:>mvnw clean install
+c:>mvn clean install
 ```
 
 ### Running the app from Eclipse IDE
@@ -126,6 +126,6 @@ Static code analysis is done using SONARQUBE and report is available
 
 ### Code Coverage - JACOCO
 Code coverage is added as part of the build process. Access the report in my-social-connect-api/target/site/jacoco/index.html
-Existing report can be downloaded from ./documentation/03_code-coverage-jacoco.zip
+Existing report can be downloaded from [Code Coverage Report](./documentation/03_code-coverage-jacoco.zip)
 
 
